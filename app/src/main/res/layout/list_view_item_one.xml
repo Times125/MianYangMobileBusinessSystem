@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp">
+
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/logob" />
+
+        <TextView
+            android:id="@+id/describe"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignBottom="@+id/left"
+            android:layout_alignTop="@+id/left"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/left"
+            android:gravity="center_vertical"
+            android:text="选项"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/describe"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/describe"
+            android:src="@mipmap/right_arrow" />
+    </RelativeLayout>
+
+</LinearLayout>

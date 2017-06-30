@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">嘀卡</string>
+    <string name="register">注册</string>
+    <string name="registerInfo">没有账号？点击这里注册</string>
+    <string name="login_hint_account">请输入帐号</string>
+    <string name="login_hint_password">请输入密码</string>
+    <string name="input_account">请输入帐号，限20位字母或者数字</string>
+    <string name="register_account_tip">帐号限20位字母或者数字</string>
+    <string name="input_nickname">请输入昵称，限10位汉字、字母或者数字</string>
+    <string name="register_nick_name_tip">昵称限10位汉字、字母或者数字</string>
+    <string name="input_password">请输入密码，6~20位字母或者数字</string>
+    <string name="register_password_tip">密码必须为6~20位字母或者数字</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_failed">注册失败,错误码%1$s:%2$s</string>
+    <string name="login_has_account">已有帐号？直接登录</string>
+    <string name="login_account_input_hint">请输入账号</string>
+    <string name="login_password_input_hint">请输入密码</string>
+    <string name="register_account_input_hint">请输入账号，只限邮箱</string>
+    <string name="register_password_input_hint">请输入密码，6-20位字母或数字</string>
+    <string name="register_password_again_hint">请再次输入密码</string>
+    <string name="login">登录</string>
+    <string name="indentifierCode">输入验证码</string>
+    <string name="add_buddy">添加好友</string>
+    <string name="add_friend_self_tip">不能添加自己为好友</string>
+    <string name="user_tips">请检查你输入的帐号是否正确</string>
+    <string name="user_not_exsit">该用户不存在</string>
+    <string name="add_friend">添加好友</string>
+    <string name="remove_friend">删除好友</string>
+    <string name="delete_tip">删除提示</string>
+    <string name="delete_system_message">删除该条系统消息？</string>
+    <string name="delete_success">删除成功</string>
+    <string name="clear_all_success">清空成功</string>
+    <string name="begin_chat">聊天</string>
+    <string name="user_profile">个人名片</string>
+    <string name="black_list">黑名单</string>
+    <string name="msg_notice">消息提醒</string>
+    <string name="add_friend_verify_tip">好友验证请求</string>
+    <string name="remove_friend_tip">删除好友后，将同时解除双方的好友关系</string>
+    <string name="remove_friend_success">删除好友成功</string>
+    <string name="net_broken">当前网络不可用</string>
+    <string name="nim_status_unlogin">未登录</string>
+    <string name="nim_status_connecting">连接中...</string>
+    <string name="nim_status_logining">登录中...</string>
+    <string name="login_failed">帐号或密码错误</string>
+    <string name="login_exception">无效输入</string>
+    <string name="input_panel_file">发送文件</string>
+    <string name="message_info">聊天信息</string>
+    <string name="create_normal_team">创建讨论组</string>
+    <string name="message_history_query">云消息记录</string>
+    <string name="message_search_title">搜索本地消息记录</string>
+    <string name="message_clear">清空本地消息记录</string>
+    <!-- 个人名片 -->
+    <string name="birthday">生 日</string>
+    <string name="phone">手 机</string>
+    <string name="email">邮 箱</string>
+    <string name="signature">签 名</string>
+    <string name="head">头 像</string>
+    <string name="user_information">个人信息</string>
+    <string name="nickname">昵 称</string>
+    <string name="alias">备注名</string>
+    <string name="gender">性 别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="other">其他</string>
+    <string name="phone_number">手机号码</string>
+    <string name="set_head_image">设置头像</string>
+    <string name="user_info_update_success">设置成功</string>
+    <string name="user_info_update_cancel">取消更新</string>
+    <string name="user_info_update_failed">设置失败，请重试</string>
+    <string name="head_update_success">头像设置成功</string>
+    <string name="head_update_failed">头像设置失败，请重试</string>
+    <string name="nickname_empty">昵称不能为空</string>
+    <string name="individualInfo">个人信息</string>
+    <string name="create_group">创建讨论组</string>
+    <string name="agree">同意</string>
+    <string name="reject">拒绝</string>
+    <string name="team_apply_sending">发送中...</string>
+    <string name="verify_reminder">验证提醒</string>
+    <string name="no_team">你还未加群</string>
+    <string name="no_normal_team">你还未加讨论组</string>
+    <string name="black_list_tip">你不会接收到列表中联系人的任何消息</string>
+    <string name="copyright">Copyright ©1997-2017 杠上花小分队版权所有</string>
+    //签到
+    <string name="sign">签到</string>
+    <string name="sign_succeed_today">今日签到成功，增加积分</string>
+    <string name="sure">确定</string>
+    <string name="have_signed">已签到</string>
+    <string name="much_score_int">%1$d 分</string>
+    <string name="you_have_sign"><Data><![CDATA[<font color="%1$s">您已连续签到 </font><font color="%2$s">%3$d</font> <font color="%1$s">天，累计获得积分</font>]]></Data></string>
+    <string name="edit_task"><![CDATA[<上方选择日期，然后点击此处可设置任务>]]></string>
+    <string name="nothing"><![CDATA[<该日无记录，点击此处可设置任务>]]></string>
+
+    <string-array name="month_array">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView android:gravity="center"
+    android:id="@+id/create_team"
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:text="没有安装应用市场"
+    android:textColor="@color/tab_menu_pic_color_blue"
+    android:textSize="16sp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

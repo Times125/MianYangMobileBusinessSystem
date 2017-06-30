@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/tab_menu_pic_color_blue"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/register_failed_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:background="@mipmap/register_fail_back" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@mipmap/logoshow" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                android:id="@+id/edit_account_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@mipmap/edittext_white_normal"
+                android:drawablePadding="15dp"
+                android:hint="@string/register_account_input_hint"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/white_smoke"
+                android:textColorHint="@color/color_white_66ffffff"
+                android:textCursorDrawable="@null"
+                android:textSize="15sp" />
+
+            <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                android:id="@+id/edit_password_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/edittext_white_normal"
+                android:drawablePadding="15dp"
+                android:hint="@string/register_password_input_hint"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:password="true"
+                android:textColor="@color/white_smoke"
+                android:textColorHint="@color/color_white_66ffffff"
+                android:textCursorDrawable="@null"
+                android:textSize="15sp" />
+
+            <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                android:id="@+id/edit_password_register_again"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/edittext_white_normal"
+                android:drawablePadding="15dp"
+                android:hint="@string/register_password_again_hint"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:password="true"
+                android:textColor="@color/white_smoke"
+                android:textColorHint="@color/color_white_66ffffff"
+                android:textCursorDrawable="@null"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                    android:id="@+id/edit_identify"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="2"
+                    android:background="@mipmap/edittext_white_normal"
+                    android:drawablePadding="15dp"
+                    android:hint="@string/indentifierCode"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/white_smoke"
+                    android:textColorHint="@color/color_white_66ffffff"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/send_identify_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_and_register_btn_style"
+                    android:text="发送验证码"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/login_and_register_tip_selector"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

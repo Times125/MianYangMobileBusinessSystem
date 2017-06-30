@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/tab_menu_pic_color_blue"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="19dp"
+                android:gravity="center_vertical"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:background="@mipmap/logoshow" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/login_or_register_llayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp">
+
+            <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                android:id="@+id/edit_account_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@mipmap/edittext_white_normal"
+                android:drawablePadding="15dp"
+                android:hint="@string/login_account_input_hint"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/white_smoke"
+                android:textColorHint="@color/color_white_66ffffff"
+                android:textCursorDrawable="@null"
+                android:textSize="15sp" />
+
+            <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                android:id="@+id/edit_password_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/edittext_white_normal"
+                android:drawablePadding="15dp"
+                android:hint="@string/login_password_input_hint"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:password="true"
+                android:textColor="@color/white_smoke"
+                android:textColorHint="@color/color_white_66ffffff"
+                android:textCursorDrawable="@null"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/login_and_register_tip_selector"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
